@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Camell Bouquets</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg fw-bold border-bottom"
+      style="background-color: #f9f5f6; padding: 1rem 6rem 1rem 6rem"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4" href="#">Camell Bouquet</a>
+        <button
+          class="navbar-toggler hamburger hamburger--spring border border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="box-shadow: none"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="container-fluid" style="background-color: #f9f5f6">
+      <div class="row align-items-center pt-5" style="padding: 0 6rem 0 6rem">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="hero-title fw-bold mt-5"
+          >
+            keindahan bunga-bunga diubah menjadi buket yang memukau
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1500" class="hero-desc mt-3">
+            Kami menawarkan berbagai pilihan karangan bunga yang dibuat oleh
+            para ahli, sempurna untuk segala acara, mulai dari perayaan hingga
+            ungkapan kasih sayang. Dengan bunga-bunga segar dan perpaduan warna
+            yang menawan, kami hadir untuk memenuhi kebutuhan akan hadiah yang
+            penuh dengan alam keindahan dan kesegaran.
+          </p>
+          <div class="button">
+            <button type="button" class="btn-order border border-0">
+              Pesan Sekarang
+            </button>
+          </div>
+        </div>
+        <div
+          class="col-lg-5 col-md-12 col-sm-12"
+        >
+          <img src="assets/img/Hero.png" class="img-fluid mt-5" alt="hero" />
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f9f5f6"
+        fill-opacity="1"
+        d="M0,32L16,58.7C32,85,64,139,96,186.7C128,235,160,277,192,250.7C224,224,256,128,288,90.7C320,53,352,75,384,96C416,117,448,139,480,165.3C512,192,544,224,576,240C608,256,640,256,672,234.7C704,213,736,171,768,149.3C800,128,832,128,864,144C896,160,928,192,960,186.7C992,181,1024,139,1056,117.3C1088,96,1120,96,1152,90.7C1184,85,1216,75,1248,80C1280,85,1312,107,1344,117.3C1376,128,1408,128,1424,128L1440,128L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
+      ></path>
+    </svg>
+
+    <!-- Layanan -->
+    <div class="container-fluid mb-5">
+      <div class="position-relative py-5">
+        <h2 class="fw-bold text-center">Layanan</h2>
+        <hr
+          class="position-absolute rounded start-50 translate-middle-x"
+          style="
+            height: 5px;
+            border-width: 0;
+            background-color: #d89f9f;
+            margin-left: 0;
+            width: 100px;
+            border-radius: 10px;
+            margin-top: -6px;
+          "
+        />
+      </div>
+
+      <div
+        class="row justify-content-center align-items-center g-2"
+        style="padding: 0 6rem 0 6rem"
+        data-aos="fade-down"
+        data-aos-duration="1250"
+      >
+        <div class="col-xl-6 col-lg-8 col-md-12">
+          <img src="assets/img/Service1.png" class="img-fluid" alt="Service1" />
+        </div>
+        <div class="col-xl-6 col-lg-4 col-md-12">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            viewBox="0 0 64 64"
+          >
+            <path
+              fill="black"
+              d="m49.654 12.881l-1.132 1.702c-.168.25-3.839 5.82-5.095 12.017l-2.332-3.944c2.868-2.487 3.816-7.337 2.033-11.896c-2.06-5.273-7.552-7.858-7.787-7.966L33.62 2l.754 1.773c.005.012.147.372.26.991a32.604 32.604 0 0 0-3.159-1.935l-.739-.382l-.276.8c-.025.076-.53 1.561-.976 3.655a5.126 5.126 0 0 1-.473-.896l-.655-1.824l-.707 1.805c-.096.243-2.317 6.032-.257 11.306c.036.093.081.18.119.271c-.156-.137-.308-.276-.473-.408c-4.382-3.484-10.399-2.873-10.652-2.845l-1.88.205l1.526 1.141c.01.008.313.244.714.72c-2.08-.132-3.603-.04-3.681-.034l-.827.053l.157.834c.015.078.313 1.62.962 3.658a5.095 5.095 0 0 1-.849-.528l-1.467-1.236l.28 1.923c.032.225.742 4.82 3.745 8.316c-5.484-.689-10.332 2.95-10.535 3.107l-1.515 1.154l1.88.187c.012.002.389.048.973.248a33.042 33.042 0 0 0-3.186 1.889L2 36.426l.548.634c.052.061 1.077 1.231 2.65 2.647a4.938 4.938 0 0 1-.996-.013l-1.876-.299l1.199 1.508c.161.205 4.028 5.002 9.532 5.717c3.134.407 6.192-.366 8.396-2.119c1.305-1.04 2.203-2.385 2.639-3.864l3.989.707c-3.812 1.726-6.168 3.647-7.515 5.026c-.82.839-1.178 1.394-1.192 1.417l-.613.957l6.325-1.109l-1.205 1.239s14.202-2.459 22.641 3.592l-1.777 1.83l3.629 3.736l1.445-1.487c.91 2.404 1.433 5.455 1.433 5.455l2.768-2.834l1.927 1.973l5.206-5.329l-1.927-1.972L62 50.998s-2.984-.555-5.329-1.503l1.447-1.49l-3.63-3.736l-1.78 1.831c-5.882-8.685-3.49-23.301-3.49-23.301l-.876.903zM31.573 4.582a34.24 34.24 0 0 1 3.174 2.088c-.05 1.04-.289 2.307-.912 3.717c-1.396-.569-2.415-1.309-3.148-2.019c.282-1.586.644-2.961.886-3.786m4.572.369c1.67 1.064 4.393 3.194 5.631 6.363c1.824 4.671.445 9.658-3.072 11.117a3.236 3.236 0 0 1-.433.145l-.001.001c-1.92.514-4.331-.438-5.484-2.166c-1.228-1.839-.902-4.266.92-6.836c2.533-3.584 2.683-6.751 2.439-8.624m1.195 19.403l1.778 4.385c-.918-1.286-1.688-2.796-2.333-4.318c.187-.013.37-.042.555-.067m-8.594-7.618c-1.236-3.163-.704-6.654-.217-8.621c.803 1.121 2.24 2.59 4.628 3.599c-.191.323-.399.65-.636.984c-2.523 3.565-2.111 6.228-1.363 7.805a11.158 11.158 0 0 1-2.412-3.767m3.653 6.596c.2 2.635.941 5.731 2.794 8.935l-4.332-3.064c.98-2.078.931-4.59-.013-6.969c.492.415 1.007.79 1.551 1.098m4.788 11.556l-1.603 1.641l-6.035-5.38c.141-.157.283-.311.41-.479l.11-.162c.021-.027.047-.053.068-.079c.087-.116.157-.24.236-.36zM18.143 15.757c1.967.055 5.367.484 8 2.578c3.881 3.086 5.153 8.103 2.839 11.182a3.824 3.824 0 0 1-.302.35c-1.404 1.438-3.954 1.862-5.803.969c-1.967-.951-2.885-3.215-2.582-6.374c.418-4.404-1.018-7.216-2.152-8.705m13.141 18.259a79.205 79.205 0 0 1-2.894-1.841c.164-.114.309-.25.461-.378c-.01.008-.017.019-.026.026zM14.016 17.803c.834-.014 2.211.005 3.769.159c.473.923.891 2.141 1.05 3.679c-1.487.23-2.731.12-3.715-.113a36.199 36.199 0 0 1-1.104-3.725m-.881 4.623c1.244.553 3.211 1.076 5.769.711c-.005.379-.022.77-.062 1.179c-.418 4.382 1.252 6.467 2.677 7.439c-.352-.093-.7-.207-1.047-.339a11.479 11.479 0 0 0-2.351-1.273c-.182-.129-.367-.248-.544-.39c-2.629-2.091-3.893-5.378-4.442-7.327m9.553 11.068c.67.074 1.336.075 1.992.012a37.118 37.118 0 0 0 2.427 3.484l-2.832-.118a8.22 8.22 0 0 0-1.587-3.378M4.229 36.71a34.51 34.51 0 0 1 3.323-1.828c.866.55 1.83 1.378 2.734 2.621c-1.165.972-2.291 1.526-3.253 1.837a34.89 34.89 0 0 1-2.804-2.63m9.012 8.427c-3.302-.429-6.027-2.599-7.471-3.989c1.347-.174 3.299-.747 5.318-2.395c.186.327.364.673.535 1.045c1.819 3.99 4.294 4.913 6.005 5.009c-1.36.403-2.857.529-4.387.33m9.611-5.69v.002c-.494 1.968-2.476 3.663-4.512 3.857c-2.166.206-4.082-1.263-5.395-4.141c-1.832-4.007-4.465-5.676-6.184-6.367c1.72-.979 4.86-2.38 8.168-1.952c.879.114 1.714.329 2.493.623c.772.531 1.582.968 2.414 1.299c2.133 1.563 3.384 3.854 3.102 6.223c-.02.153-.047.305-.086.456m2.999 7.043l-4.85.851c1.346-1.446 4.123-3.802 8.994-5.731l1.019-.402zm5.459-5.586l-6.994-1.239c.011-.064.027-.128.036-.192l.015-.195c.004-.036.018-.071.02-.106c.052-.436.05-.868.022-1.298l4.89.207l-.743-.873c-1.088-1.276-2.032-2.627-2.825-3.885a7.827 7.827 0 0 0 1.724-.59a79.992 79.992 0 0 0 7.396 4.441l.069.036zm28.465 14.908l-3.829 3.92l-1.236-1.272l3.831-3.92zm-5.287-10.131l2.258 2.324l-8.373 8.615l-2.257-2.324zM37.747 34.314l-.329-.443c-2.633-3.559-3.683-7.081-3.997-10.044a7.896 7.896 0 0 0 2.293.585c1.101 2.691 2.604 5.415 4.601 7.131l.076.066zm3.312-3.388l-2.746-6.77c.224-.065.446-.137.664-.226l.175-.081c.032-.014.068-.02.101-.034a6.823 6.823 0 0 0 1.057-.567l3.11 5.262zm3.16-3.236c.671-4.175 2.654-8.265 3.943-10.59l-.908 7.483z"
+            />
+          </svg>
+          <hr
+            style="
+              height: 5px;
+              border-width: 0;
+              background-color: #d89f9f;
+              margin-left: 0;
+              width: 100px;
+              border-radius: 10px;
+            "
+          />
+          <h3 class="fw-bold mt-4">Kustom Buket</h3>
+          <p>
+            Dengan perhatian terhadap detail dan kreativitas, layanan kami hadir
+            untuk memberikan buket bunga yang sesuai dengan selera dan kebutuhan
+            khusus Anda. Percayakan kepada kami untuk menciptakan buket bunga
+            yang memukau dan berkesan.F
+          </p>
+        </div>
+      </div>
+      <div
+        class="row justify-content-center align-items-center g-2 mt-5"
+        style="padding: 0 6rem 0 6rem"
+        data-aos="fade-down"
+        data-aos-duration="1750"
+      >
+        <div class="col-xl-6 col-lg-4 col-md-12">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            viewBox="0 0 48 48"
+          >
+            <g
+              fill="none"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+            >
+              <path
+                d="M18.197 31.424c3.124 3.124 10.722.592 16.97-5.657c6.249-6.248 8.781-13.846 5.657-16.97M27.389 6.675l1.414 1.415m-6.363 3.535l1.414 1.414m-5.658 4.243l1.414 1.414m-2.828 5.657l1.414 1.414M35.167 4.554l1.414 1.414m-2.828 7.072l2.828 2.828m-7.777 2.122l2.828 2.828m-8.485 1.414l2.828 2.828"
+              />
+              <rect
+                width="6"
+                height="14"
+                x="16.075"
+                y="29.303"
+                rx="3"
+                transform="rotate(45 16.075 29.303)"
+              />
+            </g>
+          </svg>
+          <hr
+            style="
+              height: 5px;
+              border-width: 0;
+              background-color: #d89f9f;
+              margin-left: 0;
+              width: 100px;
+              border-radius: 10px;
+            "
+          />
+          <h3 class="fw-bold mt-4">Make Up Artis</h3>
+          <p>
+            Dengan keahlian dan produk berkualitas, layanan penata rias kami
+            hadir untuk menghadirkan kecantikan alami Anda dengan sentuhan yang
+            sempurna. Kepercayaan kami untuk menciptakan penampilan memukau yang
+            sesuai dengan gaya pribadi Anda.
+          </p>
+        </div>
+        <div class="col-xl-6 col-lg-8 col-md-12">
+          <img src="assets/img/Service2.png" class="img-fluid" alt="Service1" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Produk -->
+    <div class="container-fluid mb-5">
+      <div class="position-relative py-5">
+        <h2 class="fw-bold text-center">Produk</h2>
+        <hr
+          class="position-absolute rounded start-50 translate-middle-x"
+          style="
+            height: 5px;
+            border-width: 0;
+            background-color: #d89f9f;
+            margin-left: 0;
+            width: 100px;
+            border-radius: 10px;
+            margin-top: -6px;
+          "
+        />
+      </div>
+
+      <div class="row-produk  " style="padding: 0 6rem 0 6rem">
+
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides">
+                <img src="assets/img/produk/bunga1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides">
+                <img src="assets/img/produk/bunga2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides">
+                <img src="assets/img/produk/bunga3.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides1">
+                <img src="assets/img/produk/uang1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides1">
+                <img src="assets/img/produk/uang2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides1">
+                <img src="assets/img/produk/uang3.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides2">
+                <img src="assets/img/produk/kustom1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides2">
+                <img src="assets/img/produk/kustom2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides2">
+                <img src="assets/img/produk/kustom3.png" style="width: 100%" />
+              </div>
+              <div class="mySlides2">
+                <img src="assets/img/produk/kustom4.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides3">
+                <img src="assets/img/produk/makeup1.1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides3">
+                <img src="assets/img/produk/makeup1.2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides3">
+                <img src="assets/img/produk/makeup1.3.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides4">
+                <img src="assets/img/produk/makeup2.1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides4">
+                <img src="assets/img/produk/makeup2.2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides4">
+                <img src="assets/img/produk/makeup2.3.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div  data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="card rounded shadow mb-5 bg-body-tertiary"
+            style="width: 23rem"
+          >
+            <div class="slideshow-container">
+              <div class="mySlides5">
+                <img src="assets/img/produk/makeup3.1.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides5">
+                <img src="assets/img/produk/makeup3.2.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides5">
+                <img src="assets/img/produk/makeup3.3.png" style="width: 100%" />
+              </div>
+              <div class="mySlides5">
+                <img src="assets/img/produk/makeup3.4.png" style="width: 100%" />
+              </div>
+
+              <a class="prev" onclick="plusSlides5(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides5(1)">&#10095;</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div
+      class="container-fluid p-5"
+      style="background-color: #f9f5f6"
+    >
+        <div class=" title-testi">
+          <div class="text-center ">
+            <h2 class="fw-bold ">Testimonial</h2>
+            <hr
+              style="
+                height: 5px;
+                border-width: 0;
+                background-color: #d89f9f;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+                border-radius: 10px;
+                margin-top: -6px;
+              "
+            />
+          </div>
+        </div>
+        
+          <div class="row-testi" style="padding: 0 4rem 0 4rem">
+            
+              <div
+                class="card  border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
+                style="width: 20rem"
+              >
+                <div class="img-card">
+                  <img src="assets/img/testi/person1.jpg" class="" alt="..." />
+                </div>
+                <div class="card-body ">
+                  <h6 class="card-title fw-bold text-center">Safitri</h6>
+                  <p class="testi-desc">
+                    Terima kasih, Camell Bouquet, untuk keindahan dan kelembutan yang Anda bawa.
+                  </p>
+                </div>
+              </div>
+            
+            
+              <div
+                class="card  border border-0 shadow p-3 mb-5 rounded"
+                style="width: 20rem; background-color: #f1e0e0"
+              >
+                <div class="img-card">
+                  <img src="assets/img/testi/person2.jpg" class="" alt="..." />
+                </div>
+                <div class="card-body ">
+                  <h6 class="card-title fw-bold text-center">Mia</h6>
+                  <p class="testi-desc">
+                    Terima kasih, Camell Bouquet, untuk keindahan dan kelembutan yang Anda bawa.
+                  </p>
+                </div>
+              </div>
+            
+            
+              <div
+                class="card  border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
+                style="width: 20rem"
+              >
+                <div class="img-card">
+                  <img src="assets/img/testi/person3.jpg" class="" alt="..." />
+                </div>
+                <div class="card-body ">
+                  <h6 class="card-title fw-bold text-center">Ocha</h6>
+                  <p class="testi-desc">
+                    Terima kasih, Camell Bouquet, untuk keindahan dan kelembutan yang Anda bawa.
+                  </p>
+                </div>
+              </div>            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="b-footer container-flex p-4 pb-0">
+        <section class="">
+          <div class="row r-footer">
+            <div class="col-md-4 col-lg-4 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Camell Bouquet</h6>
+              <p class="p-footer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                tempore possimus rem deserunt ad officiis iure dolores maxime
+                blanditiis quae laborum perspiciatis voluptatibus minima,
+                necessitatibus molestiae! Ab ad numquam aliquam.
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-4 col-lg-4 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Layanan</h6>
+              <p>
+                <a href="#" class="text-white text-decoration-none"
+                  >Kustom Buket</a
+                >
+              </p>
+              <p>
+                <a href="#" class="text-white text-decoration-none"
+                  >Make Up Artis</a
+                >
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-4 col-lg-4 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Alamat & Kontak
+              </h6>
+              <p>
+                <i class="fas fa-home mr-3"></i>
+                Desa Gesang, Kecamatan Tempeh, Kabupaten Lumajang, Jawa Timur
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> camellbouquet@gmail.com
+              </p>
+              <p><i class="fas fa-phone mr-3"></i> +62 88989399741</p>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+        <section class="px-5 pt-0">
+          <div class="row" style="padding: 0 2rem">
+            <div class="col-md-6 col-lg-6 text-center text-md-start">
+              <div class="p-3">
+                <p>Copyright © 2024 IDS - All Right Reserved</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 ml-lg-0 text-center text-md-end">
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="https://wa.me/6288989399741"
+                target="_blank"
+                class="text-white"
+                role="button"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="https://www.instagram.com/camellbuckett_lumajang/?hl=id"
+                target="_blank"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="https://www.instagram.com/camellmakeup/?hl=id"
+                target="_blank"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

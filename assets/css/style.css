@@ -5,11 +5,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar-brand {
-    font-family: 'Lato', sans-serif;
+
+.navbar {
+    padding: 0 6rem 0 6rem;
+    background-color: #f9f5f6;
 }
 
+
 .hero-title {
+    margin-top: 3rem;
     font-size: 50px;
     font-weight: 600;
     color: #F4B5B5;
@@ -31,46 +35,78 @@
     transition: all 0.3s ease;
 }
 
-@media only screen and (max-width: 430px) {
-    .hero-title {
-        font-size: 20px;
-        text-align: center;
-    }
-    .hero-desc {
-        font-size: 10px;
-        text-align: center;
-    }
-    .btn-order {
-        font-size: 12px;
-        text-align: center;
-    }
-    .button{
-        display: flex;
-        justify-content: center;
-    }
-
+.btn-layanan{
+    background-color: #F4B5B5;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 768px) {
     .hero-title {
-        font-size: 30px;
+        margin-top: 5rem;
+        font-size: 25px;
         text-align: center;
     }
+
     .hero-desc {
         font-size: 15px;
         text-align: center;
-    }    
+    }
+
     .btn-order {
         font-size: 15px;
         text-align: center;
     }
-    .button{
+
+    .button {
         display: flex;
         justify-content: center;
     }
 
 }
 
+
+@media only screen and (max-width: 430px) {
+
+
+    .hero-title {
+        margin-top: 5rem;
+        font-size: 15px;
+    }
+
+    .hero-desc {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .btn-order {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .btn-layanan{
+        font-size: 12px;
+        padding: 8px 10px;
+        text-align: center;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .layanan-desc {
+        font-size: 10px;
+    }
+
+    .p-footer {
+        font-size: 10px;
+    }
+}
 
 
 
@@ -146,17 +182,6 @@
     top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
 
 .active,
 .dot:hover {
@@ -175,7 +200,7 @@
     }
 }
 
-.row-produk{
+.row-produk {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
@@ -187,18 +212,22 @@
     .row-produk {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
 }
+
 @media screen and (max-width: 745px) {
     .row-produk {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        gap: 8px;
+
         justify-content: center;
         align-content: center;
     }
-    
+
 }
 
-.row-testi{
+.row-testi {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
@@ -213,24 +242,25 @@
         justify-content: center;
         align-content: center;
     }
-    
+
 }
+
 @media screen and (max-width: 745px) {
     .row-testi {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-content: center;
     }
-    
+
 }
 
-.title-testi{
+.title-testi {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.testi-desc{
+.testi-desc {
     font-size: 0.8rem;
 }
 
@@ -250,14 +280,13 @@
 
 }
 
-.b-footer p{
+.b-footer p {
     font-size: 0.9rem;
 
 }
 
-.r-footer {
-    padding: 0 6rem 0 6rem;
-}
+
+
 
 /* Hamburger */
 .hamburger {

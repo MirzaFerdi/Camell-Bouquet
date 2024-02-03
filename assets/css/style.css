@@ -16,7 +16,7 @@
     margin-top: 3rem;
     font-size: 50px;
     font-weight: 600;
-    color: #F4B5B5;
+    color: #fcacac;
     margin-bottom: 20px;
 }
 
@@ -35,6 +35,12 @@
     transition: all 0.3s ease;
 }
 
+.btn-order:hover {
+    background-color: #d89f9f;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #d89f9f;
+}
+
 .btn-layanan{
     background-color: #F4B5B5;
     color: #fff;
@@ -43,6 +49,12 @@
     font-size: 14px;
     font-weight: 500;
     transition: all 0.3s ease;
+}
+
+.btn-layanan:hover {
+    background-color: #d89f9f;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #d89f9f;
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,11 +122,6 @@
 
 
 
-.btn-order:hover {
-    background-color: #d89f9f;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px #d89f9f;
-}
 
 
 
@@ -261,7 +268,7 @@
 }
 
 .testi-desc {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 
@@ -282,6 +289,19 @@
 
 .b-footer p {
     font-size: 0.9rem;
+
+}
+
+.btn-footer a{
+    border: white 1px solid;
+
+}
+
+.btn-footer a:hover{
+    background-color: #F4B5B5;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #F4B5B5;
 
 }
 

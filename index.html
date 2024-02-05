@@ -257,7 +257,7 @@
 
     <!-- Produk -->
     <div class="container-fluid mb-5">
-      <div class="row">
+      <div class="row g-4">
         <!-- Price -->
         <div class="col col-lg-4 col-md-12">
           <div class="position-relative py-5">
@@ -276,11 +276,7 @@
             />
           </div>
 
-          <div
-            class="row px-5 justify-content-center align-items-center g-2"
-            data-aos="fade-down"
-            data-aos-duration="1250"
-          >
+          <div class="row px-5" data-aos="fade-up" data-aos-duration="1250">
             <div class="col d-flex justify-content-center align-items-center">
               <img
                 src="assets/img/pricelist.png"
@@ -291,7 +287,7 @@
           </div>
         </div>
         <!-- Produk -->
-        <div class="col col-lg-8 col-md-12">
+        <div id="produk" class="col col-lg-8 col-md-12">
           <div class="position-relative py-5">
             <h2 class="fw-bold text-center mt-5">Produk</h2>
             <hr
@@ -308,7 +304,7 @@
             />
           </div>
 
-          <div class="row ">
+          <div class="row">
             <div class="col d-flex justify-content-center align-items-center">
               <div data-aos="fade-up" data-aos-duration="1000">
                 <div
@@ -441,7 +437,7 @@
                         alt="makeup1"
                       />
                     </div>
-  
+
                     <div class="mySlides3">
                       <img
                         src="assets/img/produk/makeup1.2.png"
@@ -449,7 +445,7 @@
                         alt="makeup1"
                       />
                     </div>
-  
+
                     <div class="mySlides3">
                       <img
                         src="assets/img/produk/makeup1.3.png"
@@ -457,12 +453,13 @@
                         alt="makeup1"
                       />
                     </div>
-  
+
                     <p class="prev" onclick="plusSlides3(-1)">&#10094;</p>
                     <p class="next" onclick="plusSlides3(1)">&#10095;</p>
                   </div>
                 </div>
-              </div></div>
+              </div>
+            </div>
             <div class="col d-flex justify-content-center align-items-center">
               <div data-aos="fade-up" data-aos-duration="1000">
                 <div
@@ -477,7 +474,7 @@
                         alt="makeup2"
                       />
                     </div>
-  
+
                     <div class="mySlides4">
                       <img
                         src="assets/img/produk/makeup2.2.png"
@@ -485,7 +482,7 @@
                         alt="makeup2"
                       />
                     </div>
-  
+
                     <div class="mySlides4">
                       <img
                         src="assets/img/produk/makeup2.3.png"
@@ -493,12 +490,13 @@
                         alt="makeup2"
                       />
                     </div>
-  
+
                     <p class="prev" onclick="plusSlides4(-1)">&#10094;</p>
                     <p class="next" onclick="plusSlides4(1)">&#10095;</p>
                   </div>
                 </div>
-              </div></div>
+              </div>
+            </div>
             <div class="col d-flex justify-content-center align-items-center">
               <div data-aos="fade-up" data-aos-duration="1000">
                 <div
@@ -513,7 +511,7 @@
                         alt="makeup3"
                       />
                     </div>
-  
+
                     <div class="mySlides5">
                       <img
                         src="assets/img/produk/makeup3.2.png"
@@ -521,7 +519,7 @@
                         alt="makeup3"
                       />
                     </div>
-  
+
                     <div class="mySlides5">
                       <img
                         src="assets/img/produk/makeup3.3.png"
@@ -529,14 +527,13 @@
                         alt="makeup3"
                       />
                     </div>
-  
+
                     <p class="prev" onclick="plusSlides5(-1)">&#10094;</p>
                     <p class="next" onclick="plusSlides5(1)">&#10095;</p>
                   </div>
                 </div>
-              </div></div>
-
-
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -562,58 +559,81 @@
         </div>
       </div>
 
-      <div class="row-testi mt-3 px-5">
-        <div
-          class="card border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
-          style="width: 20rem"
-          data-aos="fade"
-          data-aos-duration="1000"
-        >
-          <div class="img-card">
-            <img src="assets/img/testi/person1.jpg" class="" alt="person1" />
-          </div>
-          <div class="card-body">
-            <p class="card-title fw-bold text-center">Safitri</p>
-            <p class="testi-desc">
-              Camell Bouquet benar-benar menjadi pilihan utama saya untuk
-              mempercantik momen-momen istimewa.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="card border border-0 shadow p-3 mb-5 rounded"
-          style="width: 20rem; background-color: #f1e0e0"
-          data-aos="fade"
-          data-aos-duration="1500"
-        >
-          <div class="img-card">
-            <img src="assets/img/testi/person2.jpg" class="" alt="person2" />
-          </div>
-          <div class="card-body">
-            <p class="card-title fw-bold text-center">Mia</p>
-            <p class="testi-desc">
-              Terima kasih, Camell Bouquet, untuk keindahan dan kelembutan yang
-              Anda bawa.
-            </p>
+      <div class="row mt-3 g-4">
+        <div class="col d-flex align-items-center justify-content-center">
+          <div
+            class="card h-100 border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 20rem"
+            data-aos="fade"
+            data-aos-duration="1000"
+          >
+            <div class="img-card">
+              <img src="assets/img/testi/person1.jpg" class="" alt="person1" />
+            </div>
+            <div class="card-body">
+              <p class="card-title fw-bold text-center">Safitri</p>
+              <p class="testi-desc">
+                Camell Bouquet benar-benar menjadi pilihan utama saya untuk
+                mempercantik momen-momen istimewa.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div
-          class="card border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
-          style="width: 20rem"
-          data-aos="fade"
-          data-aos-duration="2000"
-        >
-          <div class="img-card">
-            <img src="assets/img/testi/person3.jpg" class="" alt="personp" />
+        <div class="col d-flex align-items-center justify-content-center">
+          <div
+            class="card h-100 border border-0 shadow p-3 mb-5 rounded"
+            style="width: 20rem; background-color: #f1e0e0"
+            data-aos="fade"
+            data-aos-duration="1500"
+          >
+            <div class="img-card">
+              <img src="assets/img/testi/person2.jpg" class="" alt="person2" />
+            </div>
+            <div class="card-body">
+              <p class="card-title fw-bold text-center">Mia</p>
+              <p class="testi-desc">
+                Terima kasih, Camell Bouquet, untuk keindahan dan kelembutan
+                yang Anda bawa.
+              </p>
+            </div>
           </div>
-          <div class="card-body">
-            <p class="card-title fw-bold text-center">Ocha</p>
-            <p class="testi-desc">
-              Pengalaman make-up yang luar biasa! Saya sangat puas dengan jasa
-              make-up artist di Camell
-            </p>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div
+            class="card h-100 border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 20rem"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="img-card">
+              <img src="assets/img/testi/person3.jpg" class="" alt="personp" />
+            </div>
+            <div class="card-body">
+              <p class="card-title fw-bold text-center">Ocha</p>
+              <p class="testi-desc">
+                Pengalaman make-up yang luar biasa! Saya sangat puas dengan jasa
+                make-up artist di Camell
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div
+            class="card h-100 border border-0 shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 20rem"
+            data-aos="fade"
+            data-aos-duration="2000"
+          >
+            <div class="img-card">
+              <img src="assets/img/testi/person4.png" class="" alt="personp" />
+            </div>
+            <div class="card-body">
+              <p class="card-title fw-bold text-center">Putri</p>
+              <p class="testi-desc">
+                Profesionalisme dan ketepatan waktu mereka membuat saya merasa
+                percaya diri pada setiap kesempatan.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -674,7 +694,10 @@
           <div class="row">
             <div class="col-md-6 col-lg-9 text-center text-md-start">
               <div class="p-3">
-                <p>Copyright © 2024 IDS - All Right Reserved</p>
+                <p>
+                  Copyright © & All Rights Reserved By Indonesia Digital
+                  Solutions 2024.
+                </p>
               </div>
             </div>
             <div
